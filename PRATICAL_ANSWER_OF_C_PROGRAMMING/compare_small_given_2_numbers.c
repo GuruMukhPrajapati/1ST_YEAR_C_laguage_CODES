@@ -8,9 +8,9 @@ void main()
     scanf("%d%d", &num1, &num2);
 
     if (num1 < num2)
-        printf("%d is maximum", num1);
+        printf("%d is minimum", num1);
     else
-        printf("%d is maximum", num2);
+        printf("%d is minimum", num2);
 
     getch();
 }
