@@ -3,6 +3,7 @@
 int main()
 {
  int x,y,z,num;
+ clrscr();
  printf("Enter the limit of Lucas number : ");
  scanf("%d",&num);
  x=2;
@@ -15,5 +16,5 @@ int main()
    y=z;
  }
  getch();
- return 0;
+
 }
