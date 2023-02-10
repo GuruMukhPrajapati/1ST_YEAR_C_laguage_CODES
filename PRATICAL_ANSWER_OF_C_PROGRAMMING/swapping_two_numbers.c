@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int main(){
+void main(){
 int a,b,c;
 clrscr();
 printf("the value of a and b  : ");
