@@ -3,7 +3,7 @@
 - [@GuruMukhPrajapati](https://github.com/GuruMukhPrajapati)
 
 
-## ALL OUTPUTS VALUE MAY BE CAHNGE
+## ALL OUTPUTS RUNNING WELL I ADD VALUE ON MY SIDE YOUR VALUE WILL BE ACCOUDING TO YOU 
 
  ## 1. SWAPPING TWO NUMBERS
 ![Screenshot (51)](https://user-images.githubusercontent.com/117162170/218599348-ff661941-5b08-459f-ab63-43f0faab8611.png)
@@ -18,7 +18,8 @@
 ## 4.ONE SIDE STAR PIRAMID 
 ![Screenshot (54)](https://user-images.githubusercontent.com/117162170/218599476-24e79e99-5d0d-4f38-839d-5c4be2fbb931.png)
 
-## 5.NUMNIRICAL PIYAMID
+## 5.NUMERICAL PYRAMID
+![Screenshot (62)](https://user-images.githubusercontent.com/117162170/218600362-71f7bacb-8ac0-4252-8daa-b3d1cfa73387.png)
 
 ## 6. POWER OF GIVEN NUBER N
 ![Screenshot (55)](https://user-images.githubusercontent.com/117162170/218599537-9c82903c-310d-474b-9de0-5510cfe8a280.png)
