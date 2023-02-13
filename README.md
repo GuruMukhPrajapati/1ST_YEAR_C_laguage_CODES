@@ -1,3 +1,33 @@
 ## Authors
 
 - [@GuruMukhPrajapati](https://github.com/GuruMukhPrajapati)
+
+
+## ALL OUTPUTS VALUE MAY BE CAHNGE
+
+ ## 1. SWAPPING TWO NUMBERS
+
+## 2.SIMPLE INTERST
+
+## 3.STAR TRINGAL 
+
+## 4.ONE SIDE STAR PIRAMID 
+
+## 5.NUMNIRICAL PIYAMID
+
+## 6. POWER OF GIVEN NUBER N
+
+## 7. LUCAS NUMBERS 
+
+## 8. FABONIC NUMBERS
+
+## 9. BIG NUMBER FORM GIVEN TWO NUMBERS 
+
+## 10. SMALL NUBER FORM GIVEN TWO NUMBERS 
+
+## 11. ADDITION OF GIVEN SERIES
+  
+                        
+
+
+
