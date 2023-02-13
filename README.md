@@ -39,6 +39,12 @@
 
 ## 11. ADDITION OF GIVEN SERIES
   ![Screenshot (61)](https://user-images.githubusercontent.com/117162170/218599810-3ce71369-2288-4362-acc6-7255fa843074.png)
+  
+  ## FAQ
+
+#### Question 1 where is remaing questions ? 
+
+Answer 1 they will update with your course. some topic are not to be covered by dear sir so i am not able to post them. it will automaic update 
 
                         
 
