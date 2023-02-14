@@ -47,7 +47,7 @@
 
 Answer 1 they will update with your course. some topic are not to be covered by dear sir so i am not able to post them. it will automaic update 
 
-[visa.pdf](https://github.com/GuruMukhPrajapati/1ST_YEAR_C_laguage_CODES/files/10727326/visa.pdf)
+
 
                         
 
