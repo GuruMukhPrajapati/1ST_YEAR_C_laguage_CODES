@@ -384,6 +384,33 @@ int main()
 
 
 ```
+
+
+## 13. ENTRY AND EXIT CONTROL LOOP
+
+![Screenshot (65)](https://user-images.githubusercontent.com/117162170/219250453-d07b43eb-a336-4b40-b120-97b72fb0aee8.png)
+
+## DIRECR CODE 
+```bash
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+   int x = 2, n;
+   printf("Enter a value: ");
+   scanf("%d", &n);
+   
+   while (x <= n) {
+      printf("%d ", x);
+      x += 2;
+   }
+   
+   getch();
+   return 0;
+}
+```
+
+
   ## FAQ
 
 #### Question 1 where is remaing questions ? 
