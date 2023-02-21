@@ -620,6 +620,10 @@ getch();
 
 
 ```
+## 18. EXPALIN ENTRY AND EXIT CONTROL LOOP
+
+![WhatsApp Image 2023-02-21 at 17 22 51](https://user-images.githubusercontent.com/117162170/220476979-85a7c60f-c212-4ce2-a3dd-42f55d5502c5.jpg)
+
 
 
 
