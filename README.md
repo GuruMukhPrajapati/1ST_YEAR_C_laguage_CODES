@@ -329,7 +329,7 @@ void main() {
 }
 ```
   
-   ## 12. LINER SEARCH
+   ## 13. LINER SEARCH
    ![Screenshot (64)](https://user-images.githubusercontent.com/117162170/219122111-369dbfbb-c061-4c93-bce9-1a276fbba192.png)
    ## DIRECT CODE
 ```bash
@@ -386,7 +386,7 @@ int main()
 ```
 
 
-## 13. MERGE SORTING
+## 14. MERGE SORTING
 
 ![merge](https://user-images.githubusercontent.com/117162170/220456776-08fdda9a-8e80-42d9-b05f-0645d735dd88.png)
 
@@ -472,7 +472,7 @@ void main(){
 }
 
 ```
-## 14. BUBBLE SORTING
+## 15. BUBBLE SORTING
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/117162170/220458383-6921d656-f1a3-42b5-ae2b-9a35227f68d7.png)
 ## CODE
@@ -524,7 +524,7 @@ void main()
 }
 
 ```
-  ## 15. LINER SORTING
+  ## 16. LINER SORTING
   
  ![liner shorting](https://user-images.githubusercontent.com/117162170/220458916-ce00be18-990f-48a0-9967-744f5fae291c.png)
  
@@ -568,7 +568,7 @@ void main() {
 }
 
 ```
-## 16. BINORY SEARCH 
+## 17. BINORY SEARCH 
 ![binory search](https://user-images.githubusercontent.com/117162170/220459722-ccfd9207-dd14-4a88-8974-fbcf0e729b62.png)
 
 ## CODE
