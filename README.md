@@ -386,93 +386,8 @@ int main()
 ```
 
 
-## 14. MERGE SORTING
 
-![merge](https://user-images.githubusercontent.com/117162170/220456776-08fdda9a-8e80-42d9-b05f-0645d735dd88.png)
-
-
-## CODE 
-```bash
-#include <stdio.h>
-#include<conio.h>
-void main(){
-    int a[20], b[20], c[40], i, j, k, m, n;
-    clrscr();
-    
-    printf("Enter how many elements in first array: ");
-    scanf("%d", &m);
-    
-    printf("Enter how many elements in second array: ");
-    scanf("%d", &n);
-    
-    printf("\nInsert elements in first array a[]:\n");
-    for(i=0; i<m; i++){
-        printf("Enter element :\t");
-        scanf("%d", &a[i]);
-    }
-    
-    printf("\nInsert elements in second array b[]:\n");
-    for(i=0; i<n; i++){
-        printf("Enter element :\t");
-        scanf("%d", &b[i]);
-    }
-    
-    i=0;
-    j=0;
-    k=0;
-    
-    while((i<m)&&(j<n)){
-        if(a[i]<b[j]){
-            c[k]=a[i];
-            i++;
-            k++;
-        }
-        else if(a[i]>b[j]){
-            c[k]=b[j];
-            j++;
-            k++;
-        }
-        else{
-            c[k]=a[i];
-            i++;
-            j++;
-            k++;
-        }
-    }
-    
-    if(i<m){
-        for(; i<m; i++){
-            c[k]=a[i];
-            k++;
-        }
-    }
-    else if(j<n){
-        for(; j<n; j++){
-            c[k]=b[j];
-            k++;
-        }
-    }
-    
-    printf("\nFirst array: \n\t");
-    for(i=0; i<m; i++){
-        printf("%d ", a[i]);
-    }
-    
-    printf("\nSecond array: \n\t");
-    for(i=0; i<n; i++){
-        printf("%d ", b[i]);
-    }
-    
-    printf("\nMerged sorted array: \n\t");
-    for(i=0; i<k; i++){
-        printf("%d ", c[i]);
-    }
-    
-    getch();
-}
-
-```
-## 15. BUBBLE SORTING
+## 14. BUBBLE SORTING
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/117162170/220458383-6921d656-f1a3-42b5-ae2b-9a35227f68d7.png)
 ## CODE
@@ -524,7 +439,7 @@ void main()
 }
 
 ```
-  ## 16. LINER SORTING
+  ## 15. LINER SORTING
   
  ![liner shorting](https://user-images.githubusercontent.com/117162170/220458916-ce00be18-990f-48a0-9967-744f5fae291c.png)
  
@@ -568,7 +483,7 @@ void main() {
 }
 
 ```
-## 17. BINORY SEARCH 
+## 16. BINORY SEARCH 
 ![binory search](https://user-images.githubusercontent.com/117162170/220459722-ccfd9207-dd14-4a88-8974-fbcf0e729b62.png)
 
 ## CODE
@@ -620,7 +535,7 @@ getch();
 
 
 ```
-## 18. EXPALIN ENTRY AND EXIT CONTROL LOOP
+## 17. EXPALIN ENTRY AND EXIT CONTROL LOOP
 
 ![WhatsApp Image 2023-02-21 at 17 22 51](https://user-images.githubusercontent.com/117162170/220476979-85a7c60f-c212-4ce2-a3dd-42f55d5502c5.jpg)
 
