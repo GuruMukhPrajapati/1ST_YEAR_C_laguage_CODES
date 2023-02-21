@@ -386,36 +386,240 @@ int main()
 ```
 
 
-## 13. ENTRY AND EXIT CONTROL LOOP
+## 13. MERGE SORTING
 
-![Screenshot (65)](https://user-images.githubusercontent.com/117162170/219250453-d07b43eb-a336-4b40-b120-97b72fb0aee8.png)
+![merge](https://user-images.githubusercontent.com/117162170/220456776-08fdda9a-8e80-42d9-b05f-0645d735dd88.png)
 
-## DIRECR CODE 
+
+## CODE 
+```bash
+#include <stdio.h>
+#include<conio.h>
+void main(){
+    int a[20], b[20], c[40], i, j, k, m, n;
+    clrscr();
+    
+    printf("Enter how many elements in first array: ");
+    scanf("%d", &m);
+    
+    printf("Enter how many elements in second array: ");
+    scanf("%d", &n);
+    
+    printf("\nInsert elements in first array a[]:\n");
+    for(i=0; i<m; i++){
+        printf("Enter element :\t");
+        scanf("%d", &a[i]);
+    }
+    
+    printf("\nInsert elements in second array b[]:\n");
+    for(i=0; i<n; i++){
+        printf("Enter element :\t");
+        scanf("%d", &b[i]);
+    }
+    
+    i=0;
+    j=0;
+    k=0;
+    
+    while((i<m)&&(j<n)){
+        if(a[i]<b[j]){
+            c[k]=a[i];
+            i++;
+            k++;
+        }
+        else if(a[i]>b[j]){
+            c[k]=b[j];
+            j++;
+            k++;
+        }
+        else{
+            c[k]=a[i];
+            i++;
+            j++;
+            k++;
+        }
+    }
+    
+    if(i<m){
+        for(; i<m; i++){
+            c[k]=a[i];
+            k++;
+        }
+    }
+    else if(j<n){
+        for(; j<n; j++){
+            c[k]=b[j];
+            k++;
+        }
+    }
+    
+    printf("\nFirst array: \n\t");
+    for(i=0; i<m; i++){
+        printf("%d ", a[i]);
+    }
+    
+    printf("\nSecond array: \n\t");
+    for(i=0; i<n; i++){
+        printf("%d ", b[i]);
+    }
+    
+    printf("\nMerged sorted array: \n\t");
+    for(i=0; i<k; i++){
+        printf("%d ", c[i]);
+    }
+    
+    getch();
+}
+
+```
+## 14. BUBBLE SORTING
+
+![Screenshot (69)](https://user-images.githubusercontent.com/117162170/220458383-6921d656-f1a3-42b5-ae2b-9a35227f68d7.png)
+## CODE
 ```bash
 #include <stdio.h>
 #include <conio.h>
-
-int main() {
-   int x = 2, n;
-   printf("Enter a value: ");
-   scanf("%d", &n);
-   
-   while (x <= n) {
-      printf("%d ", x);
-      x += 2;
-   }
-   
-   getch();
-   return 0;
+void main()
+{
+    int a[20], i, j, n, t, c = 0, f = 0;
+    clrscr();
+    printf("Enter how many elements: ");
+    scanf("%d", &n);
+    for (i = 0; i < n; i++)
+    {
+        printf("Enter element: ");
+        scanf("%d", &a[i]);
+    }
+    printf("\nUnsorted array is:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d\n", a[i]);
+    }
+    for (i = 0; i < n; i++)
+    {
+        f = 0;
+        for (j = 0; j < n - 1; j++)
+        {
+            c++;
+            if (a[j] > a[j + 1])
+            {
+                t = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = t;
+                f = 1;
+            }
+        }
+        if (f == 0)
+        {
+            break;
+        }
+    }
+    printf("\nSorted array is:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d\n", a[i]);
+    }
+    printf("\nTotal comparisons: %d", c);
+        getch();
 }
+
 ```
+  ## 15. LINER SORTING
+  
+ ![liner shorting](https://user-images.githubusercontent.com/117162170/220458916-ce00be18-990f-48a0-9967-744f5fae291c.png)
+ 
+## CODE 
+```bash
+
+#include <stdio.h>
+#include<conio.h>
+void main() {
+    int a[20], i, j, n, t;
+    clrscr();
+    printf("Enter how many elements: ");
+    scanf("%d", &n);
+
+    printf("Enter the elements:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    printf("Unsorted array is:\n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", a[i]);
+    }
+
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < n - 1; j++) {
+            if (a[j] > a[j + 1]) {
+                t = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = t;
+            }
+        }
+    }
+
+    printf("\nSorted array is:\n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", a[i]);
+    }
+
+    getch();
+}
+
+```
+## 16. BINORY SEARCH 
+![binory search](https://user-images.githubusercontent.com/117162170/220459722-ccfd9207-dd14-4a88-8974-fbcf0e729b62.png)
+
+## CODE
+```bash
+#include <stdio.h>
+#include <conio.h>
+void main() {
+    int a[20], i, n, val, first, last, mid, f = 0;
+    clrscr();
+    printf("Enter how many elements: ");
+    scanf("%d", &n);
+    printf("Enter the element in sorted order:");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    printf("Array is:\n");
+    for (i = 0; i < n; i++) {
+        printf("%d\n", a[i]);
+    }
+
+    printf("Enter the searching element: ");
+    scanf("%d", &val);
+
+    first = 0;
+    last = n - 1;
+
+    while (first <= last) {
+        mid = (first + last) / 2;
+
+        if (val < a[mid]) {
+            last = mid - 1;
+        } else if (val > a[mid]) {
+            first = mid + 1;
+        } else if (val == a[mid]) {
+            f = 1;
+            break;
+        }
+    }
+
+    if (f == 1) {
+        printf("%d element is found", val);
+    } else {
+        printf("%d element is not found", val);
+    }
+getch();
+
+}
 
 
-  ## FAQ
-
-#### Question 1 where is remaing questions ? 
-
-Answer 1 they will update with your course. some topic are not to be covered by dear sir so i am not able to post them. it will automaic update 
+```
 
 
 
