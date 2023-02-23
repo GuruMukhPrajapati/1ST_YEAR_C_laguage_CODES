@@ -1,4 +1,4 @@
-## Authors
+## Authors 😒
 
 - [@GuruMukhPrajapati](https://github.com/GuruMukhPrajapati)
 
@@ -572,7 +572,7 @@ void main()
 
 - code is not matched as in book but worked...
 -  if you read this note it means this code not teached in class may be change and update in github on today after collage as soon as possible and this note well vanished
-
+## CODE
 ```bash
 #include <stdio.h>
 #include <conio.h>
@@ -611,7 +611,7 @@ void main()
 
 ```
 
-## 20. ARMSTRONG NUMBER [panding....]
+## 20. ARMSTRONG NUMBER [panding....] ☕🙄
 ```bash
 ```
                         
