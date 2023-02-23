@@ -568,7 +568,47 @@ void main()
 
 
 ## 19.PALINDROME NAME [given already in C programing book pg no.145]
+ ## NOTE
+
+- code is not matched as in book but worked...
+-  if you read this note it means this code not teached in class may be change and update in github on today after collage as soon as possible and this note well vanished
+
 ```bash
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    char str[100];
+    int i = 0, j, lenght = 0;
+    clrscr();
+    printf("enter any name :- ");
+    scanf("%s", str);
+    while (str[i] != '\0')
+    {
+        lenght++;
+        i++;
+    }
+    i = 0;
+    j = lenght - 1;
+    while (i <= lenght / 2)
+    {
+        if (str[i] == str[j])
+        {
+            i++;
+            j--;
+        }
+        else
+        {
+            break;
+        }
+    }
+    if (i >= j)
+        printf("%s is palindrome name", str);
+    else
+        printf("%s is not a palindrome name", str);
+    getch();
+}
+
 ```
 
 ## 20. ARMSTRONG NUMBER [panding....]
