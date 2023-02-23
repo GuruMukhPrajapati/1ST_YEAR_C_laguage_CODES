@@ -539,7 +539,7 @@ getch();
 
 ![WhatsApp Image 2023-02-21 at 17 22 51](https://user-images.githubusercontent.com/117162170/220476979-85a7c60f-c212-4ce2-a3dd-42f55d5502c5.jpg)
 
-## 18. DIFFRENCE BETWEEN CI ANS SI
+## 18. DIFFRENCE BETWEEN COMPOUND INTERST AND SIMPLE INTERST (CI-SI)
 
 ![Screenshot (71)](https://user-images.githubusercontent.com/117162170/221010810-98a65c49-3a27-487f-8ce9-ba24e6ad3c95.png)
 
