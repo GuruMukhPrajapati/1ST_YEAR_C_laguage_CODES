@@ -539,9 +539,41 @@ getch();
 
 ![WhatsApp Image 2023-02-21 at 17 22 51](https://user-images.githubusercontent.com/117162170/220476979-85a7c60f-c212-4ce2-a3dd-42f55d5502c5.jpg)
 
+## 18. DIFFRENCE BETWEEN CI ANS SI
+
+![Screenshot (71)](https://user-images.githubusercontent.com/117162170/221010810-98a65c49-3a27-487f-8ce9-ba24e6ad3c95.png)
+
+```bash
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float a, p, t, r, b = 1, i, ci, si;
+    clrscr();
+    printf("enter p,r,t :");
+    scanf("%f%f%f", &p, &r, &t);
+    si = p * t * r / 100;
+    a = 1 + r / 100;
+    for (i = 1; i < 10; i++);
+    {
+        b = b * a;
+    }
+    ci = p * b;
+    printf("\n ci : %f", ci);
+    printf("\n si : %f", si);
+    printf("\n diffrence berween ci and si : %f", ci - si);
+    getch();
+}
+```
 
 
+## 19.PALINDROME NAME [given already in C programing book pg no.145]
+```bash
+```
 
+## 20. ARMSTRONG NUMBER [panding....]
+```bash
+```
                         
 
 
