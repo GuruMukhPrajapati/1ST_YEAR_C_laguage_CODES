@@ -568,10 +568,7 @@ void main()
 
 
 ## 19.PALINDROME NAME [given already in C programing book pg no.145]
- ## NOTE
 
-- code is not matched as in book but worked...
--  if you read this note it means this code not teached in class may be change and update in github on today after collage as soon as possible and this note well vanished
 ## CODE
 ```bash
 #include <stdio.h>
