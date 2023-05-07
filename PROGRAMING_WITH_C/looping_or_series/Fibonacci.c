@@ -2,16 +2,16 @@
 
 int main() {
     int n, i = 0;
-    int o = 1, j = 2, k;
+    int o = 0, j = 1, k;
 
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
-    printf("Fibonacci Series: %d, %d, ", o,j);
+    printf("Fibonacci Series: %d, %d, ", o, j);
 
-    while (o <= n) {
+    while (i < n - 2) {
         k = o + j;
-        printf("%d", k);
+        printf("%d, ", k);
         o = j;
         j = k;
         i++;
