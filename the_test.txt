@@ -1,2 +1,0 @@
-only example
-only for git
