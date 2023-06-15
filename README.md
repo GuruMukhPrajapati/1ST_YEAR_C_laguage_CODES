@@ -31,6 +31,9 @@ printf("\n befor swapping a=%d,\t b=%d"a,b);
 c=a;
 a=b;
 b=c;
+*/c=d;
+D-u;
+/*
 printf("\n\nafter swaping a=%d,\t b=%d"a,b);
 getch();
 }
