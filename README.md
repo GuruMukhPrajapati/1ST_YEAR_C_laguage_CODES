@@ -5,7 +5,7 @@
 ## Authors 😒
 
 
-- [@GuruMukhPrajapati](https://github.com/GuruMukhPrajapati)
+- [@GuruMukhPrajapati](https://t.me/+RUVXlRhdsXR2yemD)
 
 
 
